@@ -1,0 +1,47 @@
+
+STUDENT PERFORMANCE PREDICTION SYSTEM
+SYSTEM ANALYSIS AND DESIGN (SAD) MINI-ANALYSIS
+
+1. PROBLEM STATEMENT
+Academic risk is sometimes identified only after students receive
+poor academic results. This prototype explores the use of historical
+student information and academic indicators to identify students
+who may be academically at risk.
+
+2. USERS
+- Faculty Member
+- Academic Analyst
+
+3. INPUTS
+The system uses student attributes and academic indicators such as:
+- Age
+- Sex
+- Study Time
+- Absences
+- Past Class Failures
+- First Period Grade (G1)
+- Second Period Grade (G2)
+- Other available student attributes
+
+4. PROCESS
+1. Obtain the Student Performance Mathematics dataset.
+2. Validate the dataset and required columns.
+3. Preprocess numerical and categorical data.
+4. Train a Random Forest classification model.
+5. Evaluate the model using accuracy, precision, recall and F1-score.
+6. Accept a CSV upload for student risk prediction.
+7. Display prediction results.
+
+5. OUTPUTS
+- AT RISK prediction
+- NOT AT RISK prediction
+- Model evaluation summary
+- Student risk distribution
+- Downloadable prediction results
+
+6. LIMITATION
+The model is trained using a historical dataset from Portuguese
+secondary schools. Its performance may differ when applied to
+students from another institution or population. Predictions are
+estimates for classroom demonstration and are not diagnoses.
+They should not be the sole basis for real academic decisions.
